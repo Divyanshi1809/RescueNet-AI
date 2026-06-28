@@ -1,23 +1,31 @@
-# IntelliJ
+# IntelliJ IDEA
 .idea/
 *.iml
 
 # VS Code
 .vscode/
 
-# Spring Boot
-backend/target/
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
 
-# React
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# React / Node
 frontend/node_modules/
-frontend/build/
+node_modules/
+
+# Environment files
+.env
+*.env
 
 # Logs
 *.log
 
-# Environment
-.env
-
-# OS files
-Thumbs.db
+# OS Files
 .DS_Store
+Thumbs.db
